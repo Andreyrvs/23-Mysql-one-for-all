@@ -59,5 +59,53 @@ VALUES
     (8, "2018-02-14", 3),
     (9, "2018-04-29", 2),
     (10, "2017-01-17", 2);
+
+CREATE TABLE SpotifyClone.artista (
+    artista_id INT PRIMARY KEY NOT NULL,
+    nome VARCHAR(45)
+)  ENGINE=INNODB;
+
+INSERT INTO SpotifyClone.artista
+(artista_id, nome)
+VALUES
+	(1,	"Walter Phoenix"),
+    (2,	"Freedie Shannon"),
+    (3,	"Lance Day"),
+    (4,	"Peter Strong"),
+    (5,	"Tyler Isle"),
+    (6,	"Fog");
     
-    
+CREATE TABLE SpotifyClone.usuario_segue_artista (
+    usuario_id INT,
+    artista_id INT,
+    FOREIGN KEY (usuario_id)
+        REFERENCES SpotifyClone.usuario (usuario_id),
+    FOREIGN KEY (artista_id)
+        REFERENCES SpotifyClone.artista (artista_id)
+)  ENGINE=INNODB;
+
+INSERT INTO SpotifyClone.usuario_segue_artista
+(usuario_id, artista_id)
+VALUES
+(1, 1),
+(1, 2),
+(1, 3),
+(2, 1),
+(2, 3),
+(3, 4),
+(3, 1),
+(4, 2),
+(5, 5),
+(5, 6),
+(6, 6),
+(6, 3),
+(6, 1),
+(7, 4),
+(7, 5),
+(8, 1),
+(8, 5),
+(9, 6),
+(9, 2),
+(9, 3),
+(10, 4),
+(10, 6);
