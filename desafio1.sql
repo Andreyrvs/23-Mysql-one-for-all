@@ -21,11 +21,11 @@ VALUES
     (8,	"Carol", 19),
     (9,	"Angelina", 42),
     (10, "Paul", 46);
-    
+
 CREATE TABLE SpotifyClone.planos (
     plano_id INT PRIMARY KEY NOT NULL,
     plano VARCHAR(45) NOT NULL,
-    preco DECIMAL(3 , 2 )
+    preco DECIMAL(3,2)
 )  ENGINE=INNODB;
 
 INSERT INTO SpotifyClone.planos
@@ -35,7 +35,7 @@ VALUES
     (2,	"familiar",	7.99),
     (3, "universitário", 5.99),
     (4,	"pessoal", 6.99);
-    
+
 CREATE TABLE SpotifyClone.usuario_planos (
     usuario_id INT,
     plano_id INT,
@@ -74,7 +74,7 @@ VALUES
     (4,	"Peter Strong"),
     (5,	"Tyler Isle"),
     (6,	"Fog");
-    
+
 CREATE TABLE SpotifyClone.usuario_segue_artista (
     usuario_id INT,
     artista_id INT,
@@ -257,15 +257,16 @@ VALUES
 (10,40);
 
 CREATE TABLE SpotifyClone.historico_usuario (
-    usuario_id INT NOT NULL,
-    cancoes INT NOT NULL,
+    usuario_id INT,
+    cancao_id INT,
     data_reproducao VARCHAR(45),
     FOREIGN KEY (usuario_id)
-        REFERENCES usuario (usuario_id)
+        REFERENCES usuario (usuario_id),
+        FOREIGN KEY (cancao_id) REFERENCES SpotifyClone.cancoes (cancao_id) 
 )  ENGINE=INNODB;
 
 INSERT INTO SpotifyClone.historico_usuario
-(usuario_id, cancoes, data_reproducao)
+(usuario_id, cancao_id, data_reproducao)
 VALUES
 (1,36,"2020-02-28 10:45:55"),
 (1,25, "2020-05-02 05:30:35"),
@@ -304,4 +305,4 @@ VALUES
 (10,20,"2017-02-06 08:21:34"),
 (10,21, "2017-12-04 05:33:43"),
 (10,12, "2017-07-27 05:24:49"),
-(10,13, "2017-12-25 01:03:57");
+(10,13, "2017-12-25 01:03:57"); 
