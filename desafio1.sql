@@ -109,3 +109,12 @@ VALUES
 (9, 3),
 (10, 4),
 (10, 6);
+
+CREATE TABLE SpotifyClone.album (
+    album_id INT PRIMARY KEY NOT NULL,
+    album VARCHAR(45),
+    ano_lancamento VARCHAR(45),
+    artista_id INT,
+    FOREIGN KEY (artista_id)
+        REFERENCES SpotifyClone.artista (artista_id)
+)  ENGINE=INNODB;
