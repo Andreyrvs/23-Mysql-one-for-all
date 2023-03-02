@@ -49,23 +49,27 @@ Adquiri essas habilidades ao desenvolver esse projeto:
   git clone git@github.com:Andreyrvs/23-mysql-one-for-all.git
   ```
 
+  > º
   > Back-end
   >
-  >  ```bash
-  >  cd 23-mysql-one-for-all
-  >  ```
+  >>  ```bash
+  >>  cd 23-mysql-one-for-all
+  >>  ```
+  >>
+  >>  ```bash
+  >>  docker-compose up -d
+  >>  ```
+  >>
+  >>  ```bash
+  >>  docker exec -it one_for_all bash
+  >>  ```
+  >>
+  >>  ```bash
+  >>  npm ci
+  >>  ```
+  >>
   >
-  > ```bash
-  > docker-compose up -d
-  > ```
-  >
-  > ```bash
-  > docker exec -it one_for_all bash
-  > ```
-  >
-  > ```bash
-  > npm ci
-  > ```
+  > º
 
 ## Executando aplicação
 
