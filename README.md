@@ -65,4 +65,4 @@ Adquiri essas habilidades ao desenvolver esse projeto:
   | 5. Clique no botão :arrows_counterclockwise: apontado na imagem a seguir para atualizar a listagem de banco de dados. | 6. O banco de dados deverá ter essas tabelas populadas |
   | ![Update database listing](./aplicacao-05.png) | ![Database SpotifyClone](./aplicacao-06.png) |
 
-### Para executar os desafios faça os **passos 3 e 4** para cada arquivo ex: `desafioN.sql`
+### Para executar os desafios faça os **passos 3 e 4** para cada arquivo ex: `desafioN.sql`.
