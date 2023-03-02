@@ -50,22 +50,22 @@ Adquiri essas habilidades ao desenvolver esse projeto:
   ```
 
   > Back-end
-
-  ```bash
-  cd 23-mysql-one-for-all
-  ```
-
-  ```bash
-  docker-compose up -d
-  ```
-
-  ```bash
-  docker exec -it one_for_all bash
-  ```
-
-  ```bash
-  npm ci
-  ```
+  >
+  >  ```bash
+  >  cd 23-mysql-one-for-all
+  >  ```
+  >
+  >```bash
+  >docker-compose up -d
+  >```
+>
+  >```bash
+  >docker exec -it one_for_all bash
+  >```
+>
+  >```bash
+  >npm ci
+  >```
 
 ## Executando aplicação
 
