@@ -50,6 +50,7 @@ Adquiri essas habilidades ao desenvolver esse projeto:
   ```
 
   > º
+  >
   > Back-end
   >
   >>  ```bash
@@ -74,3 +75,11 @@ Adquiri essas habilidades ao desenvolver esse projeto:
 ## Executando aplicação
 
 - Para rodar o Banco de dados:
+
+| 1. Crie uma Conexão | 2. Use as credendicais |
+| ----------- | ----------- |
+| ![Create Connection](./aplicacao-01.png) | ![Setup Credentials](./aplicacao-02.png) |
+| 3. Import o arquivo `desafio1.json` | 4. Execute a Query clicando no Raio :zap: |
+| ![Import the database archive](./aplicacao-03.png) | ![Execute Query](./aplicacao-04.png) |
+| 5. Clique no botão apontado na imagem a seguir para atualizar a listagem de banco de dados. | 6. O banco de dados deverá ter essas tabelas populadas |
+| ![Update database listing](./aplicacao-05.png) | ![Database SpotifyClone](./aplicacao-06.png) |
