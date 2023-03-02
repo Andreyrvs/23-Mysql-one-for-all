@@ -1,13 +1,63 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# One for all
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Contexto
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+Este projeto trata-se de uma desafios Mysql:
+
+- Problema a ser resolvido:
+  Recebi uma tabela não normalizada semelhante ao que poderia ser uma versão simplificada do banco de dados do Spotify. O trabalho consistirá de duas partes:
+
+  Normalizar essa tabela, criar o schema no seu banco de dados local e populá-lo;
+
+  Realizar os desafios no seu banco normalizado e populado;
+
+  3ª Forma normal
+
+> Utiliza a [Tabela Não normalizada](SpotifyClone-Non-NormalizedTable.xlsx)
+
+## Técnologias usadas
+
+Back-end:
+> Desenvolvido usando: Mysql, Docker, Docker Compose
+
+## Habilidades
+
+Adquiri essas habilidades ao desenvolver esse projeto:
+
+- Analisar se duas tabelas não normalizadas;
+
+- Identificar modificações necessárias para que suas tabelas estejam adequadamente na 1ª, 2ª e 3ª Forma Normais;
+
+- Criar um banco de dados a partir de uma planilha que contém tabelas e dados;
+
+- Criar e modelar tabelas;
+
+- Queries que passam pelos principais comandos SQL vistos até o momento;
+
+<!-- 
+## Preview da Aplicação
+
+| ![Login](./aplicacao-) | ![Home](./aplicacao-) |
+| ----------- | ----------- | 
 -->
+
+## Instalando Dependências
+
+- clone o projeto:
+
+  ```bash
+  git clone git@github.com:Andreyrvs/23-mysql-one-for-all.git
+  ```
+
+  > Back-end
+
+  ```bash
+  cd 23-mysql-one-for-all
+  docker-compose up -d
+  docker exec -it one_for_all bash
+  npm ci
+  ```
+
+## Executando aplicação
+
+- Para rodar o Banco de dados:
