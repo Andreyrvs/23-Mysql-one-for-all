@@ -81,7 +81,7 @@ Adquiri essas habilidades ao desenvolver esse projeto:
 | ![Create Connection](./aplicacao-01.png) | ![Setup Credentials](./aplicacao-02.png) |
 | 3. Importe o arquivo `desafio1.json` | 4. Execute a Query clicando no **Raio** :zap: |
 | ![Import the database archive](./aplicacao-03.png) | ![Execute Query](./aplicacao-04.png) |
-| 5. Clique no botão :repeat: apontado na imagem a seguir para atualizar a listagem de banco de dados. | 6. O banco de dados deverá ter essas tabelas populadas |
+| 5. Clique no botão :arrows_counterclockwise: apontado na imagem a seguir para atualizar a listagem de banco de dados. | 6. O banco de dados deverá ter essas tabelas populadas |
 | ![Update database listing](./aplicacao-05.png) | ![Database SpotifyClone](./aplicacao-06.png) |
 
 Para executar os desafios faça os **passos 1 e 2** para cada arquivo ex: `desafioN.sql`
