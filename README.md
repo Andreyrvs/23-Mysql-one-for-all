@@ -34,13 +34,6 @@ Adquiri essas habilidades ao desenvolver esse projeto:
 
 - Queries que passam pelos principais comandos SQL vistos até o momento;
 
-<!-- 
-## Preview da Aplicação
-
-| ![Login](./aplicacao-) | ![Home](./aplicacao-) |
-| ----------- | ----------- | 
--->
-
 ## Instalando Dependências
 
 - clone o projeto:
@@ -49,34 +42,22 @@ Adquiri essas habilidades ao desenvolver esse projeto:
   git clone git@github.com:Andreyrvs/23-mysql-one-for-all.git
   ```
 
-  > º
-  >
-  > Back-end
-  >
-  >>  ```bash
-  >>  cd 23-mysql-one-for-all
-  >>  ```
-  >>
-  >>  ```bash
-  >>  docker-compose up -d
-  >>  ```
-  >>
-  >>  ```bash
-  >>  docker exec -it one_for_all bash
-  >>  ```
-  >>
-  >>  ```bash
-  >>  npm ci
-  >>  ```
-  >>
-  >
-  > º
+  > Banco de dados
+
+    ```bash
+    cd 23-mysql-one-for-all
+    docker-compose up -d
+    docker exec -it one_for_all bash
+    npm ci
+    ```
 
 ## Executando aplicação
 
+É necessário ter [Mysql Workbench](https://www.mysql.com/products/workbench/) ou similar para rodar a as Queryes.
+
 - Para rodar o Banco de dados:
 
-  | 1. Crie uma conexão | 2. Use as credenciais |
+  | 1. Crie uma conexão | 2. Use as credenciais e a senha: `password` |
   | ----------- | ----------- |
   | ![Create Connection](./aplicacao-01.png) | ![Setup Credentials](./aplicacao-02.png) |
   | 3. Importe o arquivo `desafio1.json` | 4. Execute a Query clicando no **Raio** :zap: |
